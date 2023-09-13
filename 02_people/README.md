@@ -38,5 +38,6 @@ GET /stats -> state the number of people in the api database
 
 ## Testing
 
-![image testing](./image_testing.png)
+![Alt Text](./image_testing.png)
+
 
