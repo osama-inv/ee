@@ -14,26 +14,29 @@ The documentation of ***People API*** written by [Oyebamiji Mustapha](https://tw
 
 ### People
 
-The url for testing [ngjfkf]()
+The url for testing [https://hngmus2.onrender.com/api](https://hngmus2.onrender.com/api)
 
 Data inside {id, name}
 
-GET /api/peoples -> get all people
+GET /peoples -> get all people
 
-POST /api/peoples -> create a new people
+POST /peoples -> create a new people
 The json must contain **name** key with a value
 
-PUT /api/people/:id -> update a person with a particular id
+PUT /people/:id -> update a person with a particular id
 
-GET /api/people/:id-> get all info about a particular person with a particular id
+GET /people/:id-> get all info about a particular person with a particular id
 
-DELETE /api/people/:id -> delete a particular person with a particular id
+DELETE /people/:id -> delete a particular person with a particular id
 
-GET /api/people_search-> search for a person with a name
+GET /people_search-> search for a person with a name(the name will come in the form of a query paramter as name is the key)
 
 
 ### Stats
 
-GET /api/stats -> state the number of people in the api database
+GET /stats -> state the number of people in the api database
 
+## Testing
+
+![image testing](./image_testing.png)
 

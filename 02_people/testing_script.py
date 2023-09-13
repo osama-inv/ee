@@ -2,7 +2,7 @@
 """This is automated testing for this api"""
 import requests
 
-url = 'http://localhost:3000/api/'
+url = 'https://hngmus2.onrender.com/api/'
 
 #create person
 person_information = {
@@ -10,7 +10,7 @@ person_information = {
 }
 person = requests.post(url + 'peoples', json=person_information)
 print(person.status_code)
-print(f"person {person.json().get('id')}created sucessfully: {person.json()}")
+print(f"person {person.json().get('id')} created sucessfully: {person.json()}")
 person_information = {
     'name': 'tester2'
 }
